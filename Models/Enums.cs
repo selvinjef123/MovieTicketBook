@@ -1,6 +1,13 @@
-﻿namespace MovieTicketBooking.NewFolder
+﻿namespace MovieTicketBooking.Models;
+
+public enum SeatStatus
 {
-    public class Enums
-    {
-    }
+    Available,
+    Booked
+}
+
+public enum BookingStatus
+{
+    Confirmed,
+    Cancelled
 }
